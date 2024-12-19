@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <title>La Chomba</title>
+</head>
+<body>
+    <a href="https://wa.me/56999988026" class="whatsapp-button" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
+    <header>
+        <div class="banner">
+            <img src="img/tejido-de-punto.png" class="bolitaTejido">
+            <h1>"La Chomba"</h1>
+            <img src="img/facebook.png" class="redes">
+            <img src="img/instagram.png" class="redes">
+            <img src="img/banner.png" class="imgbanner">
+            <section class="bannerBlanco">
+                <p class="elementos">Inicio</p>
+                <p class="elementos">Nosotros</p>
+                <p class="elementos">Productos</p>
+                <p class="elementos">Contacto</p>
+                
+            </section>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <div class="nosotros">
+                <br><br>
+                <h2>Nosotros</h2>
+                <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, quos officia. Iure ex voluptate repellat 
+                veritatis voluptatem deleniti non explicabo natus? Laborum doloribus iure eum incidunt beatae quod est 
+                totam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem officia eveniet laboriosam laudantium
+                 et aut nisi! Consequuntur distinctio, perferendis laudantium sequi blanditiis modi odio, harum velit dolore
+                dignissimos, explicabo iusto?</p>
+            </div>
+        </section>
+        <br><br>
+        <section class="containerProductos">
+            <p class="productos">Productos</p>
+            <br><br>
+            <p class="mujeres">Mujeres</p>
+            <br><br>
+            
+                <div class="fotos">
+                    <img src="img/mujeres/0802eecaf1e66ab61e972f165a6c2809.jpg" class="foto1" id="chomba1">
+                    <img src="img/mujeres/1171533fd9a87aba26f3c731380dbe41.jpg" class="foto1" id="chomba2">
+                    <img src="img/mujeres/0c2d7ad03921e1b7aac18ce2b42d078f.jpg" class="fotoss" id="chomba3">
+                </div>
+            <br>
+            <div class="fotos">
+                <img src="img/mujeres/0fe0dac0734fa589aa865a2bc7599ab0.jpg" class="foto1" id="chomba4">
+                <img src="img/mujeres/10453d7085762359947de32d42a81dfb.jpg" class="foto1" id="chomba5">
+                <img src="img/mujeres/2b4c0d46ab4818ea4238100515ed5a0a.jpg" class="fotoss" id="chomba6">
+            </div>
+            
+                
+                
+            </div>
+            
+            <br><br>
+            <p class="hombres">Hombres</p>
+            <br><br>
+            <div class="fotos">
+                <img src="img/hombres/008b31d94b6984cab4cc3499ccbbe7a6.jpg" class="imagen" id="img1">
+                <img src="img/hombres/219f1ddc976770e6d8a04615cd30a136.jpg" class="imagen" id="img2">
+                <img src="img/hombres/38ac6d3775b56fb12ab51b3bddac96a1.jpg" class="imagen fotoss" id="img3">
+            </div>
+            <br>
+            <div class="fotos">
+                <img src="img/hombres/533b838be1a90419b30567359d30bb39.jpg" class="imagen" id="img4">
+                <img src="img/hombres/549e6a96c03c32a30841b5f5081ab895.jpg" class="imagen" id="img5">
+                <img src="img/hombres/5ecfad79dfd096dfde0563f3ed1b5af1.jpg" class="imagen fotoss" id="img6">
+                <br><br><br>
+            </div>
+
+        </section>
+        <section class="contacto">
+            
+            <h2 class="letrasContacto">  ¡Contáctanos! </h2>
+            
+
+            <form action="procesar_formulario.php" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+        
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="foter">© 2024 Instituto Profesional San Sebastián</p>
+    </footer>
+</body>
+</html>
