@@ -273,10 +273,24 @@ h2 {
     
 }
 
+.foter {
+    color:white;
+    background-color: rgb(153, 109, 117);
+    height: 100px;
+}
+
 @media (min-width: 600px) {
 .fotoss {
     display: block;
 }
+
+.bolitaTejido {
+    display: block;
+    width: 60px;
+    height: 60px;
+    
+}
+
 
 #chombo5 {
     margin-left: 40px;
@@ -338,9 +352,29 @@ p.lorem {
 }
 }
 
+@media (min-width: 775px) {
+    .redes {
+        display: block;
+        width: 60px;
+        height: 60px;
+    }
+
+    .enlaces {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: -60px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+}
+
 @media (min-width: 1200px) {
 
-    
+   .imgbanner {
+    width: 100%;
+    height: 500px;
+   } 
 
 
 
